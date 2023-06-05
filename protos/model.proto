@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+package model;
+
+
+service ModelService {rpc TextGenerate (TextGenerateRequest) returns (TextGenerateResponse) {}}
+
+message TextGenerateRequest {string message = 1;}
+
+message TextGenerateResponse {string reply = 1;}
