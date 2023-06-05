@@ -58,8 +58,7 @@ To install and set up the project, follow these steps:
 
 6. Download the GPT4All model:
 
-   Obtain the GPT4All model and place it in the **pretrained_model/** directory.
-Update the model path in the server configuration file if necessary.
+   Obtain the GPT4All model by visiting the official GPT4All website at https://gpt4all.io/index.html. Once downloaded, place the model files in the pretrained_model/ directory of the project. 
 
 7. Set up the server:
 
