@@ -19,6 +19,6 @@ if __name__ == '__main__':
     server_address = 'localhost:5051'
     client = ModelClient(server_address)
 
-    message = "tell me about putin"
+    message = "what are the best places to visit in europe?"
     reply = client.generate_text(message)
     print(reply)
